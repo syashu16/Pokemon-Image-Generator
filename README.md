@@ -11,12 +11,34 @@ Generate your own Pokemon-style characters using AI! This project uses a fine-tu
 - 💾 **Memory Efficient**: Works on 4GB GPU (GTX 1650 Ti and above)
 - 🎨 **High Quality**: Fine-tuned specifically for Pokemon-style art
 - 🔧 **Beginner Friendly**: No AI/ML knowledge required
+- 🤗 **Hugging Face Integration**: Available on Hugging Face Hub
 
 ## 🖼️ Sample Generations
 
 | Fire Pokemon | Water Pokemon | Electric Pokemon |
 |--------------|---------------|------------------|
 | ![Fire](https://via.placeholder.com/200x200/FF4444/FFFFFF?text=Fire) | ![Water](https://via.placeholder.com/200x200/4444FF/FFFFFF?text=Water) | ![Electric](https://via.placeholder.com/200x200/FFFF44/000000?text=Electric) |
+
+## 🤗 Hugging Face Model
+
+**Model**: [`yashu16/pokemon-lora-v1`](https://huggingface.co/yashu16/pokemon-lora-v1)
+- **Base Model**: Stable Diffusion v1.5
+- **Method**: LoRA fine-tuning
+- **Hardware**: Trained on GTX 1650 Ti (4GB VRAM)
+- **License**: MIT
+- **Created**: August 16, 2025
+
+### Quick Usage with Diffusers
+
+```python
+from diffusers import StableDiffusionPipeline
+
+pipeline = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
+pipeline.load_lora_weights("yashu16/pokemon-lora-v1")
+
+image = pipeline("a cute fire pokemon with orange fur").images[0]
+image.save("my_pokemon.png")
+```
 
 ## 🚀 Quick Start (Beginners)
 
@@ -42,7 +64,34 @@ Generate your own Pokemon-style characters using AI! This project uses a fine-tu
    python generate.py
    ```
 
-### Option 2: Manual Setup
+### Option 2: Use Hugging Face Diffusers Directly
+
+1. **Install dependencies**
+   ```bash
+   pip install diffusers transformers torch
+   ```
+
+2. **Use the model**
+   ```python
+   from diffusers import StableDiffusionPipeline
+   import torch
+   
+   # Load the pipeline
+   pipeline = StableDiffusionPipeline.from_pretrained(
+       "runwayml/stable-diffusion-v1-5",
+       torch_dtype=torch.float16
+   )
+   
+   # Load your LoRA weights
+   pipeline.load_lora_weights("yashu16/pokemon-lora-v1")
+   
+   # Generate Pokemon
+   prompt = "a cute fire pokemon with orange fur"
+   image = pipeline(prompt).images[0]
+   image.save("pokemon.png")
+   ```
+
+### Option 3: Manual Setup
 
 1. **Install Python 3.8+** from [python.org](https://python.org)
 
@@ -135,6 +184,43 @@ pokemon-lora-generator/
 
 ## 🔧 Advanced Usage
 
+### Using the Hugging Face Model Directly
+
+```python
+from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
+import torch
+
+# Initialize pipeline
+pipe = StableDiffusionPipeline.from_pretrained(
+    "runwayml/stable-diffusion-v1-5",
+    torch_dtype=torch.float16,
+    safety_checker=None,
+    requires_safety_checker=False
+)
+
+# Load LoRA weights
+pipe.load_lora_weights("yashu16/pokemon-lora-v1")
+
+# Optional: Use faster scheduler
+pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+
+# Move to GPU if available
+if torch.cuda.is_available():
+    pipe = pipe.to("cuda")
+
+# Generate image
+prompt = "a majestic electric pokemon with golden lightning patterns"
+image = pipe(
+    prompt,
+    num_inference_steps=25,
+    guidance_scale=7.5,
+    height=512,
+    width=512
+).images[0]
+
+image.save("electric_pokemon.png")
+```
+
 ### Training Your Own LoRA
 
 Want to train on your own art style? Use our training script:
@@ -185,22 +271,18 @@ python setup.py --redownload
 pip install -r requirements.txt --force-reinstall
 ```
 
+**❌ "LoRA weights not loading"**
+```bash
+# Solution: Ensure you have the latest diffusers version
+pip install --upgrade diffusers
+```
+
 ### Performance Tips
 
 - **Faster Generation**: Use `--steps 15` for quicker results
 - **Better Quality**: Use `--steps 50` for higher quality
 - **Memory Saving**: Use `--size 256` for smaller images
 - **Batch Processing**: Generate multiple images with `batch_generate.py`
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. **🐛 Report Bugs**: Open an issue with details
-2. **💡 Suggest Features**: Share your ideas
-3. **🎨 Share Creations**: Post your generated Pokemon
-4. **📝 Improve Docs**: Help make instructions clearer
-5. **🔧 Submit Code**: Fork, improve, and create pull requests
 
 ### Development Setup
 
@@ -221,20 +303,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LoRA**: Microsoft for Low-Rank Adaptation technique
 - **Pokemon Dataset**: Community-contributed Pokemon artwork
 - **Diffusers**: Hugging Face for the excellent library
+- **Hugging Face**: For hosting our model at [`yashu16/pokemon-lora-v1`](https://huggingface.co/yashu16/pokemon-lora-v1)
 
-## 📞 Support
-
-- **📧 Email**: syashu16@example.com
-- **💬 Discord**: [Join our community](https://discord.gg/pokemon-lora)
-- **🐛 Issues**: [GitHub Issues](https://github.com/syashu16/pokemon-lora-generator/issues)
-- **📖 Wiki**: [Detailed Documentation](https://github.com/syashu16/pokemon-lora-generator/wiki)
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=syashu16/pokemon-lora-generator&type=Date)](https://star-history.com/#syashu16/pokemon-lora-generator&Date)
-
----
-
-**Made with ❤️ by [syashu16](https://github.com/syashu16)**
+**Made with ❤️ by Yashu and Varun
 
 *Generate amazing Pokemon-style art with AI! ⭐ Star this repo if you found it useful!*
+
+**🤗 Available on Hugging Face: [`yashu16/pokemon-lora-v1`](https://huggingface.co/yashu16/pokemon-lora-v1)**
