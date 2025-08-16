@@ -1,0 +1,127 @@
+# 🎨 Pokemon LoRA Generator - Example Prompts
+
+## 🔥 Fire Type Pokemon
+a cute fire pokemon with orange fur and small flames
+a powerful fire dragon pokemon with red scales breathing flames
+a small fire pokemon with big eyes and warm glowing embers
+a majestic fire phoenix pokemon with golden feathers and fire wings
+a friendly fire puppy pokemon with orange and yellow fur patterns
+
+## 💧 Water Type Pokemon
+a blue water pokemon with fins swimming gracefully in ocean waves
+a large water turtle pokemon with shell and aqua blue coloring
+a cute water seal pokemon with white and blue fur playing in water
+a mystical water serpent pokemon with flowing blue scales
+a small water fish pokemon with rainbow fins and bubbles
+
+## ⚡ Electric Type Pokemon
+a yellow electric pokemon with lightning bolt patterns and sparks
+a small electric mouse pokemon with red cheeks and bright energy
+a powerful electric tiger pokemon with black stripes and electric aura
+a cute electric sheep pokemon with fluffy white wool and blue electricity
+a majestic electric bird pokemon with golden feathers and lightning wings
+
+## 🌿 Grass Type Pokemon
+a green grass pokemon covered in leaves and colorful flowers
+a large grass tree pokemon with brown bark and leafy branches
+a cute grass cat pokemon with green fur and flower decorations
+a mystical grass fairy pokemon with vine hair and petal dress
+a small grass bulb pokemon with big eyes and sprouting leaves
+
+## 🔮 Psychic Type Pokemon
+a purple psychic pokemon with mystical glowing aura and floating gems
+a elegant psychic cat pokemon with pink fur and psychic energy rings
+a powerful psychic humanoid pokemon with spoon and telekinetic powers
+a cute psychic fox pokemon with multiple tails and magical sparkles
+a mysterious psychic pokemon with third eye and cosmic patterns
+
+## 🐉 Dragon Type Pokemon
+a powerful dragon pokemon with scales and large majestic wings
+a cute baby dragon pokemon with small wings and friendly expression
+a serpentine dragon pokemon with long body and flowing whiskers
+a armored dragon pokemon with metallic scales and fierce appearance
+a mystical dragon pokemon with crystal horns and ethereal glow
+
+## 👻 Ghost Type Pokemon
+a friendly ghost pokemon floating with ethereal purple glow
+a mischievous ghost pokemon hiding in shadows with glowing eyes
+a elegant ghost pokemon with flowing spectral form and mysterious aura
+a cute ghost pokemon with round body and playful expression
+a ancient ghost pokemon with tattered cloak and haunting presence
+
+## 🧚 Fairy Type Pokemon
+a cute fairy pokemon with pink colors and magical sparkles
+a elegant fairy pokemon with butterfly wings and flower crown
+a small fairy pokemon with big eyes and rainbow colored fur
+a mystical fairy pokemon with star patterns and glittering aura
+a graceful fairy pokemon with ribbon-like appendages and soft glow
+
+## 🥊 Fighting Type Pokemon
+a strong fighting pokemon in battle pose with muscular build
+a martial arts fighting pokemon with focused expression and stance
+a cute fighting panda pokemon with black and white fur
+a agile fighting monkey pokemon with long tail and quick movements
+a disciplined fighting pokemon with bandages and determined look
+
+## ❄️ Ice Type Pokemon
+a beautiful ice pokemon with crystal formations and snowy fur
+a cute ice seal pokemon with white fur and icy blue accents
+a majestic ice wolf pokemon with frost patterns and cold breath
+a small ice penguin pokemon with blue and white coloring
+a elegant ice swan pokemon with crystalline feathers and graceful pose
+
+## 🗿 Rock Type Pokemon
+a sturdy rock pokemon with stone armor and earthy brown colors
+a cute rock puppy pokemon with pebble fur and friendly expression
+a massive rock golem pokemon with boulder body and glowing core
+a crystalline rock pokemon with gem formations and sparkling surface
+a ancient rock pokemon with fossil patterns and weathered appearance
+
+## 🦅 Flying Type Pokemon
+a graceful flying bird pokemon with colorful feathers and spread wings
+a cute flying bat pokemon with purple wings and big ears
+a majestic flying eagle pokemon with golden feathers and sharp talons
+a small flying butterfly pokemon with delicate wings and bright colors
+a powerful flying dragon pokemon soaring through cloudy skies
+
+## 🐛 Bug Type Pokemon
+a cute bug pokemon with colorful wing patterns and antennae
+a friendly bug caterpillar pokemon with green body and leaf decorations
+a beautiful bug butterfly pokemon with rainbow wings and graceful flight
+a strong bug beetle pokemon with shiny carapace and horn
+a small bug spider pokemon with multiple eyes and web patterns
+
+## ☠️ Poison Type Pokemon
+a mysterious poison pokemon with purple coloring and toxic aura
+a cute poison frog pokemon with bright warning colors and spots
+a dangerous poison snake pokemon with fangs and venom dripping
+a playful poison gas pokemon with cloud-like body and mischievous grin
+a elegant poison flower pokemon with beautiful but deadly petals
+
+## 🌍 Ground Type Pokemon
+a sturdy ground pokemon digging through earth with powerful claws
+a cute ground mole pokemon with brown fur and tunnel-making abilities
+a massive ground rhino pokemon with horn and thick armored skin
+a sandy ground pokemon with desert camouflage and heat resistance
+a ancient ground pokemon with fossil elements and prehistoric appearance
+
+## 🔩 Steel Type Pokemon
+a shiny steel pokemon with metallic silver coating and robotic features
+a cute steel gear pokemon with spinning parts and mechanical sounds
+a powerful steel knight pokemon with armor plating and sword
+a elegant steel bird pokemon with chrome feathers and sharp edges
+a small steel magnet pokemon with electromagnetic powers and metal body
+
+## 🌙 Dark Type Pokemon
+a mysterious dark pokemon lurking in shadows with glowing red eyes
+a cute dark cat pokemon with black fur and mischievous personality
+a powerful dark wolf pokemon with intimidating presence and sharp fangs
+a sneaky dark fox pokemon with multiple tails and cunning expression
+a elegant dark raven pokemon with midnight black feathers and intelligence
+
+## 🌟 Normal Type Pokemon
+a friendly normal pokemon with simple design and approachable appearance
+a cute normal rabbit pokemon with soft fur and long ears
+a playful normal monkey pokemon with expressive face and agile movements
+a loyal normal dog pokemon with faithful eyes and wagging tail
+a gentle normal deer pokemon with graceful posture and kind expression
