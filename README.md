@@ -2,8 +2,6 @@
 
 Generate your own Pokemon-style characters using AI! This project uses a fine-tuned Stable Diffusion model with LoRA (Low-Rank Adaptation) to create unique Pokemon-inspired artwork.
 
-![Pokemon LoRA Demo](https://via.placeholder.com/800x400/FF6B6B/FFFFFF?text=Pokemon+LoRA+Demo)
-
 ## ✨ Features
 
 - 🎯 **Easy to Use**: One-click setup and generation
@@ -12,12 +10,6 @@ Generate your own Pokemon-style characters using AI! This project uses a fine-tu
 - 🎨 **High Quality**: Fine-tuned specifically for Pokemon-style art
 - 🔧 **Beginner Friendly**: No AI/ML knowledge required
 - 🤗 **Hugging Face Integration**: Available on Hugging Face Hub
-
-## 🖼️ Sample Generations
-
-| Fire Pokemon | Water Pokemon | Electric Pokemon |
-|--------------|---------------|------------------|
-| ![Fire](https://via.placeholder.com/200x200/FF4444/FFFFFF?text=Fire) | ![Water](https://via.placeholder.com/200x200/4444FF/FFFFFF?text=Water) | ![Electric](https://via.placeholder.com/200x200/FFFF44/000000?text=Electric) |
 
 ## 🤗 Hugging Face Model
 
