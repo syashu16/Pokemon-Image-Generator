@@ -1,4 +1,4 @@
-# 🎨 Pokemon LoRA - AI Pokemon Generator
+# 🐹 Pokemon LoRA - AI Pokemon Generator
 
 Generate your own Pokemon-style characters using AI! This project uses a fine-tuned Stable Diffusion model with LoRA (Low-Rank Adaptation) to create unique Pokemon-inspired artwork.
 
