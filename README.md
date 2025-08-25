@@ -20,6 +20,9 @@ Generate your own Pokemon-style characters using AI! This project uses a fine-tu
 - **License**: MIT
 - **Created**: August 16, 2025
 
+🌐 Hugging Face Space  
+Try it live here: [`yashu16/pokemon-lora-ui`](https://huggingface.co/spaces/yashu16/pokemon-lora-ui)  
+
 ### Quick Usage with Diffusers
 
 ```python
